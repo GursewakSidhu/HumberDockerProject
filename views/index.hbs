@@ -3,15 +3,12 @@
       <div class="w-14"><img src="/images/gear-set-blue.png" class="h-9"></div>
       <div class=""><h2>Program: {{ program }} </h2></div>
    </div>
-   <br />
-   <h2>Course: {{ course }}</h2>
-   <br /><br />
-   
+   <h3>Course: {{ course }}</h3>
    {{#each reviews}}
         <h3>Review: {{ review }}</h3>
         Description: {{ description }}
         <br />
    {{/each}}
-   
-   <br><br>
+   <br>
+   <hr>
 {{/each}}
